@@ -22,7 +22,7 @@ export default function Posts() {
           <h1 className={Style.error}>{error}</h1>
         )}
       </div>
-      {!showAll.length > 0 && (
+      {posts.length > 0 && (
         <div className={Style.showBtn}>
           <button onClick={() => setShowAll(!showAll)}>
             {showAll ? "Show Less" : "Show All"}
