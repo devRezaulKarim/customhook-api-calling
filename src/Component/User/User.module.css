@@ -1,0 +1,13 @@
+.user {
+  background-color: #BA5A31;
+  padding: 16px;
+  border-radius: 8px;
+  color:#fff;
+}
+
+.user > div {
+  width: 70%;
+  margin: auto;
+
+}
+

@@ -1,0 +1,20 @@
+.comment {
+    background-color: #def4c6;
+    min-height: 150px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 4px #050a30;
+    color: #0d2818;
+  }
+
+  .commentHeading, .commentBody{
+    padding: 8px;
+  }
+
+  .commentHeading {
+    background-color: #0d2818;
+    min-height: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 3px black;
+    color: #def4c6;
+    margin-bottom: 8px;
+  }

@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.usersWrapper {
+  padding: 16px;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.heading h1 {
+  display: inline-block;
+  position: relative;
+  color: #0d2818;
+  margin-bottom: 16px;
+}
+.heading h1::after {
+  position: absolute;
+  content: "";
+  height: 5px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: #0d2818;
+}
+
+.users {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 32px;
+  padding-bottom: 16px;
+}
